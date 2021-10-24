@@ -16,7 +16,7 @@ But, if pressed, how would you **prove** it?
 
 In this example, created a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, utilized a [simple Python library](https://pypi.python.org/pypi/citipy), the [OpenWeatherMap API](https://openweathermap.org/api), and a little common sense to create a representative model of weather across world cities.
 
-first created a series of scatter plots to showcase the following relationships:
+First created a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
 * Humidity (%) vs. Latitude
@@ -34,7 +34,7 @@ Ran linear regression on each relationship. This time, separated the plots into 
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
 
-notebook contains:
+Notebook contains:
 
 * Randomly selected 500+ unique (non-repeat) cities based on latitude and longitude.
 * Performed a weather check on each of the cities using a series of successive API calls.
